@@ -1,11 +1,11 @@
-import styles from './styles.module.scss';
+import styles from './Root.module.scss';
 
-const Home = () => (
+const Root = () => (
   <div className={styles.container}>
     <main className={styles.main}>
-      <p>Home</p>
+      <p>Root</p>
     </main>
   </div>
 );
 
-export default Home;
+export default Root;
